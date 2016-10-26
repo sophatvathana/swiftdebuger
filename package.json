@@ -1,0 +1,27 @@
+{
+  "name": "swift-debugger",
+  "main": "./lib/swift-debugger",
+  "version": "0.1.2",
+  "description": "Develop and Debug swift projects",
+  "keywords": [
+    "swift",
+    "develop swift",
+    "debug swift",
+    "swift package manager",
+    "lldb"
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "swift-debugger:toggle",
+      "swift-debugger:breakpoint"
+    ]
+  },
+  "repository": "https://github.com/aciidb0mb3r/atom-swift-debugger",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.0"
+  }
+}
